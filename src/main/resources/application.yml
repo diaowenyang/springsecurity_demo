@@ -1,0 +1,4 @@
+jwt:
+  secret: thisIsASecretKeyThatIsAtLeast32BytesLong2121 # jwt的签名
+  access-token-validity: 604800  # access-token有效期（7天）
+  refresh-token-validity: 2592000  # refresh-token有效期（30天）
